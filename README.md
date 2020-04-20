@@ -1,4 +1,4 @@
-Patches to support MacBookPro 16,1 Wifi, Audio, Bluetooth, SMC, Keyboard and Touchpad on kernel 5.6, tweaked from the originals from @aunali1 and @mikeeq
+Patches to support MacBookPro 16,1 Wifi, Audio, Bluetooth, SMC, Keyboard tracking Arch Linux Mainline kernel (https://aur.archlinux.org/packages/linux-mainline), tweaked from the originals from @aunali1 and @mikeeq
 
 To make this work you'll also need the BCE drivers from @mcmrarm
 
