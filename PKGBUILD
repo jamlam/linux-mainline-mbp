@@ -8,8 +8,8 @@
 
 pkgbase=linux-mainline-mbp               # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
-_tag=v5.7-rc1
-pkgver=5.7rc1mbp
+_tag=v5.7-rc2
+pkgver=5.7rc2mbp
 pkgrel=1
 pkgdesc="Linux Mainline"
 arch=(x86_64)
@@ -196,6 +196,8 @@ for _p in "${pkgname[@]}"; do
     _package${_p#$pkgbase}
   }"
 done
+
+# vim:set ts=8 sts=2 sw=2 et:
 md5sums=('SKIP'
          '709d1fea41f48568ac0d7fec971b6c78'
          '736b398f3f0157fd2362abfb800a082a'
